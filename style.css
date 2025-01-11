@@ -15,13 +15,13 @@
     /* font-size: 700;
     line-height: 1.6;
     background-color: #;
-    margin: 1rem 2rem; */
+    /* margin: 1rem 2rem; */ */
   }
 
   /* share-style */
   p{
     font-weight: 400 ;
-    font-size: 16px;
+    font-size: 15.5px;
     line-height: 24px;
     color: #0E0E0E;
     opacity: 70%;
@@ -82,7 +82,7 @@ nav{
 
   .banner-title{
     font-weight: 700;
-    font-size: 56px;
+    font-size: 44.5px;
     color: #0E0E0E;
   }
 
@@ -94,6 +94,7 @@ nav{
     border: none;
     border-radius: 8px;
     padding: 17px 34px;
+    margin-top: 30px;
 
   }
 
@@ -260,7 +261,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 48px;
+    margin: 26px;
   }
 
   .news-image-2{
@@ -268,4 +269,71 @@ nav{
     width: 408px;
     border-radius: 24px;
     margin-left: 24px;
+  }
+
+
+  /* Donate for Bangladesh */
+
+  .Donate{
+    margin: 40px 264.5px;
+  }
+
+  .donate-content{
+    width: 1071px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+  }
+
+  .donate-title{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 32px;
+  } 
+
+.donate-discription{
+    margin-bottom: 32px;
+}
+
+  .donate-box{
+    /* margin: auto ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    
+  }
+
+  .box-1, .box-2, .box-3, .box-4{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 40px;
+    border: 1px solid #0e0e0e7f;
+    border-radius: 16px ;
+    
+  }
+
+  .box-2{
+    background-color: #C6E4D6;
+  }
+
+  .choice-option{
+    padding: 20px 40px;
+    border-bottom: 2px solid #17171700;
+  }
+
+  .donate-btn{
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #FFFFFF ;
+    font-weight: 600;
+    font-size: 18px; 
+    border-radius: 8px;
+    border: none;
+    margin-top: 32px; 
+
   }
