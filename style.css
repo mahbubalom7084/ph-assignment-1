@@ -1,19 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* *{
-    margin: 0px;
-    padding: 0px;
-} */
+
+* {
+    margin: 0;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+  }
+  
+  body {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    
+
+    /* font-size: 700;
+    line-height: 1.6;
+    background-color: #;
+    margin: 1rem 2rem; */
+  }
+
+  /* share-style */
+  p{
+    font-weight: 400 ;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 70%;
+  }
+
+
 
 /*nav style*/
 nav{
-    width: 1280px;
-    font-family: "Fira Sans", serif;
-    font-style: normal;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 100px;
+    margin: 10px  160px;
+
     
 }
 
@@ -34,14 +56,14 @@ nav{
 
   /*banner stlyes*/
   .banner{
-    width: 1280px;
+    /* width: 1280px; */
     height: 560px;
     background-color: #C6E4D6;
     display: flex;
     justify-content:space-between;
     align-items: center;
     border-radius: 24px;
-    margin:11px 100px;
+    margin:11px 160px;
   }
 
   .banner-content{
@@ -78,4 +100,93 @@ nav{
   .banner-image{
     width: 474.03px;
     margin: 0px 40px;
+  }
+
+  /*The vision of Feture*/
+  .fetures-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 80px 160px 25px ;
+    
+  }
+
+  .fetures-discription{
+    /* color: #0E0E0E;
+    opacity: 70%; */
+    /* font-weight: 400; */
+    line-height: 24px;
+    margin: 25px 160px 25px ;;
+  }
+
+  /* .text-area{
+    margin:32px;
+  } */
+
+  .card-image{
+    width: 60px;
+    margin: 32px 32px 0px;
+  }
+
+  .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 160px 32px;
+  }
+
+  .card-title, .card-discription{
+    margin: 24px 32px 12px;
+  }
+
+  .card-1 , .card-2, .card-3 {
+    width: 360px;
+    height: 300px;
+    border-radius: 16px;
+    background-color: #b8cef5;
+  }
+
+  .card-2{
+    background-color: #C6E4D6;
+  }
+
+  .card-3{
+    background-color: #F7EBCF;
+  }
+  
+  .card-btn-1, .card-btn-2, .card-btn-3{
+    color:#FFFFFF ;
+    background-color: #5490F5 ;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 11px 20px;
+    margin: auto 32px 32px;
+  }
+
+  .card-btn-2{
+    background-color: #09A15C;
+  }
+
+  .card-btn-3{
+    background-color: #FFC239;
+  }
+
+  .discription-area{
+    background-image: url(images/quote-bg.png);
+    background-repeat: no-repeat;
+    margin: 0px 160px 80px;
+    border: 1px solid #e2e2e2;
+    border-radius: 16px;
+  }
+  .text-area{
+    margin: 48px 24px;
+  }
+  
+  .discription-text{
+    margin-bottom: 12px;
+  }
+
+  .discription-name{
+    margin-bottom: 4px;
   }
